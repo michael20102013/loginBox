@@ -3,7 +3,7 @@
 ## 操作步骤
 1. 确定你的项目less配置(demo中用的是customize-cra的配置方法)OK,antd安装和配置完成。
 2. 直接项目中引用，就像这样
-3. ```js 
+```js 
 
         import LoginBoxComponent from '../../components/LoginBox/LoginBox';//LoginBoxComponent就是我们导出的登录框组件
         class Login extends React.Component {
@@ -20,5 +20,6 @@
                 )
             }
         }
-   ```
+```
+3.此demo中index.html中引入iconfont图标库，你可以引入也可以自己制作
  
